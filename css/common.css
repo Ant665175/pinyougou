@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('./../fonts/icomoon.eot?7kkyc2');
+    src: url('./../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('./../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('./../fonts/icomoon.woff?7kkyc2') format('woff'), url('./../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.color-red {
+    color: #c81623;
+}
+
+.shortcut {
+    height: 32px;
+    background-color: #f1f1f1;
+}
+
+.box-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.shortcut ul li {
+    float: left;
+    line-height: 32px;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 10px 15px 0;
+}
+
+.icon-ctrl:before {
+    font-family: "icomoon";
+    content: "\ea51";
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 4px;
+}
+
+.header {
+    padding: 25px 0;
+    /* background: lightblue; */
+    height: 56px;
+}
+
+.header .logo {
+    height: 56px;
+    width: 175px;
+    background: url(./../img/logo.png);
+}
+
+.header .logo h1 {
+    font-size: 0;
+}
+
+.header .search-input {
+    margin-left: 175px;
+    height: 32px;
+    width: 456px;
+    outline: none;
+    border: 2px solid #c81623;
+    line-height: 32px;
+    padding-left: 10px;
+}
+
+.header button {
+    height: 36px;
+    width: 82px;
+    background: #c81623;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hotwords {
+    margin-left: 175px;
+    line-height: 26px;
+}
+
+.hotwords a {
+    padding: 0 11px;
+}
+
+.my-shopcar {
+    position: relative;
+    margin-right: 62px;
+    width: 98px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    /* text-align: center; */
+    padding: 0 20px;
+    line-height: 34px;
+}
+
+.my-shopcar .img-car::after {
+    font-family: "icomoon";
+    content: "\e93a";
+    color: #c81623;
+    margin-right: 10px;
+}
+
+.my-shopcar .count {
+    position: absolute;
+    height: 14px;
+    left: 100px;
+    top: -5px;
+    padding: 1px 4px;
+    border-radius: 8px 8px 8px 0;
+    background: #c81623;
+    color: white;
+    line-height: 14px;
+}
+
+.my-shopcar .arrow::after {
+    font-family: "icomoon";
+    content: "\ea52";
+}
+
+
+/* header end */
+
+
+/* nav start */
+
+.nav {
+    height: 48px;
+    /* background: violet; */
+    border-bottom: 2px solid #c81623;
+}
+
+.nav .dropdown {
+    width: 210px;
+}
+
+.nav .dropdown dt {
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    background-color: #c81623;
+}
+
+.nav .navitems li {
+    float: left;
+}
+
+.nav .navitems li a {
+    display: block;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    color: #666;
+    padding: 0 25px;
+}
