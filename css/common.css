@@ -165,3 +165,79 @@
     color: #666;
     padding: 0 25px;
 }
+
+
+/* footer start */
+
+.footer {
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.footer .mod-service {
+    height: 50px;
+    padding: 30px 0;
+    border-bottom: 2px solid #c81623;
+}
+
+.mod-service li {
+    float: left;
+    width: 180px;
+    height: 50px;
+    padding: 0 30px;
+}
+
+.mod-service .mod-service-zheng {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(./../img/icons.png) no-repeat -252px -2px;
+}
+
+.mod-service .mod-service-tit {
+    margin-left: 5px;
+}
+
+.mod-service .mod-service-tit h5 {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.mod-help-item {
+    padding: 25px 0 20px;
+    border-bottom: 1px solid #666;
+    overflow: hidden;
+}
+
+.mod-help-item dl {
+    float: left;
+    width: 170px;
+    padding-left: 30px;
+}
+
+.mod-help-item dt {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mod-help-item dd {
+    line-height: 22px;
+}
+
+.mod-help-item-app dt,
+.mod-help-item-app p {
+    padding-left: 15px;
+}
+
+.mod-help-item-app i {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(./../upload/erweima.png) no-repeat center center;
+}
+
+.mod-copyright {
+    text-align: center;
+    line-height: 20px;
+    padding: 30px 0;
+}
