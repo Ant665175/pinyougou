@@ -150,7 +150,46 @@
     color: #fff;
     line-height: 48px;
     text-align: center;
+    background-color: #b1191a;
+}
+
+.dropdown .menu {
     background-color: #c81623;
+    border: 1px solid #c81623;
+    border-width: 0 0 1px 1px;
+}
+
+.dropdown .menu li {
+    position: relative;
+    padding: 0 10px;
+    line-height: 31px;
+    font-size: 14px;
+}
+
+.dropdown .menu li::after {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-family: "icomoon";
+    content: "\ea52";
+    /* width: 15px;
+    height: 15px; */
+    color: #fff;
+    font-size: 14px;
+}
+
+.dropdown .menu li:hover {
+    background: #fff;
+}
+
+.dropdown .menu li:hover a {
+    color: #c81623;
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+
+.dropdown .menu a {
+    color: #fff;
 }
 
 .nav .navitems li {
