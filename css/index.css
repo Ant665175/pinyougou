@@ -1,0 +1,127 @@
+.main-con {
+    width: 980px;
+    height: 456px;
+    margin-left: 220px;
+    /* background-color: antiquewhite; */
+    margin-top: 10px;
+}
+
+.main-con>div {
+    position: relative;
+}
+
+.main-con .fl .a-btn {
+    display: block;
+    position: absolute;
+    top: 50%;
+    height: 35px;
+    width: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: -25px;
+    visibility: hidden;
+}
+
+.main-con .a-btn-left {
+    border-radius: 0 50% 50% 0;
+}
+
+.main-con .a-btn-right {
+    right: 0;
+    border-radius: 50% 0 0 50%;
+}
+
+.main-con .fl:hover .a-btn {
+    visibility: visible;
+}
+
+.main-con .fl ol {
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+
+.main-con .fl ol li {
+    float: left;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.main-con .fl li.current {
+    background: #fff;
+}
+
+.panel-right {
+    width: 250px;
+}
+
+.news-panel {
+    border: 1px solid #ddd;
+}
+
+.panel-right .news-header {
+    color: #666;
+    line-height: 30px;
+    font-size: 14px;
+    border-bottom: 1px dotted #ddd;
+    padding: 0 10px;
+}
+
+.panel-right .news-header a {
+    display: block;
+    float: right;
+}
+
+.panel-right .news {
+    padding: 5px;
+}
+
+.panel-right .news li {
+    line-height: 24px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.panel-right .lifeservice {
+    overflow: hidden;
+}
+
+.panel-right .lifeservice ul {
+    width: 256px;
+}
+
+.panel-right .lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border: 1px solid #ddd;
+    border-width: 1px 1px 0 0;
+    cursor: pointer;
+}
+
+.panel-right .lifeservice li i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(./../img/icons.png) no-repeat;
+}
+
+.panel-right .lifeservice i.huafei {
+    background-position: -17px -16px;
+}
+
+.panel-right .lifeservice li span {
+    display: block;
+    text-align: center;
+}
+
+.panel-right .bargain {
+    margin-top: 5px;
+}
